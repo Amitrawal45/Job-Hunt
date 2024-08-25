@@ -10,7 +10,7 @@ import axios from "axios";
 import { setUser } from "@/redux/authSlice";
 import { motion } from "framer-motion";
 
-const USER_API_END_POINT = "https://jobhuntbackend.onrender.com/api/v1/user";
+const USER_API_END_POINT = "http://localhost:8000/api/v1/user";
 
 const Navbar = () => {
   const { user } = useSelector((state) => state.auth);

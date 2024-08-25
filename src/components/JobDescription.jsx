@@ -8,10 +8,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { toast } from "sonner";
 import { motion } from "framer-motion";
 
-// const JOB_API_END_POINT = "http://localhost:8000/api/v1/job";
-const JOB_API_END_POINT = "https://jobhuntbackend.onrender.com/api/v1/job";
-
-const APPLICATION_API_END_POINT = "https://jobhuntbackend.onrender.com/v1/application";
+const JOB_API_END_POINT = "http://localhost:8000/api/v1/job";
+const APPLICATION_API_END_POINT = "http://localhost:8000/api/v1/application";
 
 const JobDescription = () => {
   const { singleJob } = useSelector((store) => store.job);
