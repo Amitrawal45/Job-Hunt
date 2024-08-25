@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 
-const COMPANY_API_END_POINT = "http://localhost:8000/api/v1/company";
+const COMPANY_API_END_POINT = "https://jobhuntbackend.onrender.com/api/v1/company";
 const useGetAllCompanies = () => {
   const dispatch = useDispatch();
   useEffect(() => {

@@ -15,7 +15,7 @@ import { setUser } from "@/redux/authSlice";
 import { toast } from "sonner";
 import { Loader2 } from "lucide-react";
 
-const USER_API_END_POINT = "http://localhost:8000/api/v1/user";
+const USER_API_END_POINT = "https://jobhuntbackend.onrender.com/api/v1/user";
 
 const UpdateProfileDialog = ({ open, setOpen }) => {
   const [loading, setLoading] = useState(false);

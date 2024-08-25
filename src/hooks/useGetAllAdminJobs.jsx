@@ -2,7 +2,7 @@ import { setAllAdminJobs } from "@/redux/jobSlice";
 import axios from "axios";
 import  { useEffect } from "react";
 import { useDispatch } from "react-redux";
-const JOB_API_END_POINT = "http://localhost:8000/api/v1/job";
+const JOB_API_END_POINT = "https://jobhuntbackend.onrender.com/api/v1/job";
 
 const useGetAllAdminJobs = () => {
   const dispatch = useDispatch();

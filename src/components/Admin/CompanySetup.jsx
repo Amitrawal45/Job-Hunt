@@ -10,7 +10,7 @@ import { toast } from "sonner";
 import { useSelector } from "react-redux";
 import useGetCompanyById from "@/hooks/useGetCompanyById";
 
-const COMPANY_API_END_POINT = "http://localhost:8000/api/v1/company";
+const COMPANY_API_END_POINT = "https://jobhuntbackend.onrender.com/api/v1/company";
 const CompanySetup = () => {
   const params = useParams();
   useGetCompanyById(params?.id);
