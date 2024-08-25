@@ -14,7 +14,7 @@ import AdminJobs from "./components/Admin/AdminJobs";
 import PostJob from "./components/Admin/PostJob";
 import Applicants from "./components/Admin/Applicants";
 import ProtectedRoute from "./components/Admin/ProtectedRoute";
-import ForgetPassword from "./components/ui/ForgetPassword";
+
 
 
 const appRouter = createBrowserRouter([
@@ -30,10 +30,7 @@ const appRouter = createBrowserRouter([
     path: "/signup",
     element: <Signup />,
   },
-  {
-    path: "/forget-password",
-    element: <ForgetPassword />,
-  },
+  
   {
     path: "/jobs",
     element: <Jobs />,

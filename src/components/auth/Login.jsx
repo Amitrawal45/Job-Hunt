@@ -138,9 +138,7 @@ const Login = () => {
               Signup
             </Link>
             <br />
-            <Link to="/forget-password" className="text-blue-600">
-              Forgot Password
-            </Link>
+           
           </motion.span>
         </motion.form>
       </div>
